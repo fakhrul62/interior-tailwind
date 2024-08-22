@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+html, body{
+    font-family: "Manrope", sans-serif;
+}
+.dsg{
+    color: #6dad23;
+}
+input:focus-visible,textarea:focus-visible {
+    border: 1px solid #acef5f;
+    outline: 1px solid #acef5f;
+}
+.hide{
+    display: none!important;
+}

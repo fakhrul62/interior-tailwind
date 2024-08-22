@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior with Tailwind</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fakhrul62.github.io/icons/css/fontawesome.css">
+    <link rel="stylesheet" href="https://fakhrul62.github.io/icons/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="bg-neutral-50 py-3 hidden md:hidden lg:hidden xl:block 2xl:block">
+        <div class="navbar w-10/12 mx-auto">
+            <div class="navbar-start">
+                <a href="index.html" class="flex gap-x-2 items-center text-black"><i
+                        class="fa-regular fa-arrow-right-long bg-[#ABEF5F] h-4 w-4 p-2 rounded-full -rotate-45 hover:rotate-0 duration-200"></i>
+                    <span class="font-bold text-3xl">Interior</span> </a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1  *:text-zinc-600">
+                    <li><a class="hover:text-black">Home</a></li>
+                    <li><a class="hover:text-black">Services</a></li>
+                    <li><a class="hover:text-black">Portfolio</a></li>
+                    <li><a class="hover:text-black">Blogs</a></li>
+                    <li><a class="hover:text-black">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end flex gap-x-5">
+                <i class="fa-light fa-magnifying-glass h-4 w-4 p-2 bg-white rounded-full border border-zinc-300"></i>
+                <i class="fa-light fa-cart-shopping h-4 w-4 p-2 bg-white rounded-full border border-zinc-300"></i>
+                <a class="btn bg-[#ABEF5F] rounded-full flex items-center justify-between"><span
+                        class="font-bold text-base">Book Consult</span> <i
+                        class="fa-regular fa-arrow-right-long bg-black text-white h-4 w-4 p-2 rounded-full -rotate-45 hover:rotate-0 duration-200"></i></a>
+            </div>
+        </div>
+    </header>
+    <header class="bg-neutral-50 py-3 lg:block xl:hidden 2xl:hidden">
+        <div class="navbar w-10/12 mx-auto">
+            <div class="navbar-start">
+                <a href="index.html" class="flex gap-x-2 items-center text-black"><i
+                        class="fa-regular fa-arrow-right-long bg-[#ABEF5F] h-4 w-4 p-2 rounded-full -rotate-45 hover:rotate-0 duration-200"></i>
+                    <span class="font-bold text-3xl">Interior</span> </a>
+            </div>
+
+            <div class="w-1/2 flex justify-end">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost ">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-32 p-2 right-5">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- hero   -->
+        <section class="bg-neutral-50 pt-3 pb-10">
+            <div class="w-10/12 mx-auto">
+                <img src="https://raw.githubusercontent.com/ProgrammingHero1/B10-Assignment-03/main/assets/banner.png"
+                    class="mx-auto mb-5">
+                <div>
+                    <h1 class="text-center text-3xl md:text-6xl text-zinc-900 font-black mb-10 leading-tight">A barn house of
+                        this design has a striking appearance</h1>
+                    <p class="text-center text-zinc-900 w-9/12 mx-auto">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                        weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                    </p>
+                    <a
+                        class="btn bg-[#d4f6ae] rounded-full flex items-center justify-between w-44 mx-auto mt-10 border border-[#ABEF5F]"><span
+                            class="font-bold text-base">View Details</span> <i
+                            class="fa-regular fa-arrow-right-long bg-[#ABEF5F] text-black h-4 w-4 p-2 rounded-full -rotate-45 hover:rotate-0 duration-200"></i></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://fakhrul62.github.io/icons/js/fontawesome.js"></script>
+    <script src="https://fakhrul62.github.io/icons/js/all.js"></script>
+</body>
+
+</html>
