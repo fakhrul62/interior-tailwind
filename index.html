@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interior with Tailwind</title>
+    <link rel="shortcut icon" href="fav.svg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://fakhrul62.github.io/icons/css/fontawesome.css">
@@ -13,7 +14,7 @@
 </head>
 
 <body>
-    <header class="bg-neutral-50 py-3 hidden md:hidden lg:hidden xl:block 2xl:block">
+    <header id="home" class="bg-neutral-50 py-3 hidden md:hidden lg:hidden xl:block 2xl:block">
         <div class="navbar w-10/12 mx-auto">
             <div class="navbar-start">
                 <a href="index.html" class="flex gap-x-2 items-center text-black"><i
@@ -22,11 +23,11 @@
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1  *:text-zinc-600">
-                    <li><a class="hover:text-black">Home</a></li>
-                    <li><a class="hover:text-black">Services</a></li>
-                    <li><a class="hover:text-black">Portfolio</a></li>
-                    <li><a class="hover:text-black">Blogs</a></li>
-                    <li><a class="hover:text-black">Contact Us</a></li>
+                    <li><a href="#home" class="hover:text-black">Home</a></li>
+                    <li><a href="#services" class="hover:text-black">Services</a></li>
+                    <li><a href="#portfolio" class="hover:text-black">Portfolio</a></li>
+                    <li><a href="#blogs" class="hover:text-black">Blogs</a></li>
+                    <li><a href="#contact" class="hover:text-black">Contact Us</a></li>
                 </ul>
             </div>
             <div class="navbar-end flex gap-x-5">
@@ -52,11 +53,11 @@
                         <i class="fa-solid fa-bars-staggered"></i>
                     </div>
                     <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-32 p-2 right-5">
-                        <li><a>Home</a></li>
-                        <li><a>Services</a></li>
-                        <li><a>Portfolio</a></li>
-                        <li><a>Blogs</a></li>
-                        <li><a>Contact Us</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#blogs">Blogs</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -83,7 +84,7 @@
             </div>
         </section>
         <!--  about us -->
-        <section class="py-24 bg-neutral-100">
+        <section id="services" class="py-24 bg-neutral-100">
             <div class="grid md:grid-cols-2 gap-10 w-10/12 mx-auto">
                 <div class="relative">
                     <div class="flex md:justify-start justify-center">
@@ -247,7 +248,7 @@
             </div>
         </section>
         <!-- portfolio -->
-        <section class="py-24 bg-white">
+        <section id="portfolio" class="py-24 bg-white">
             <div class="w-9/12 mx-auto">
                 <a class="btn bg-zinc-200 rounded-full flex items-center w-64 mx-auto"><i
                         class="fa-regular fa-arrow-right-long  text-black h-4 w-4"></i> <span
@@ -301,7 +302,7 @@
             </div>
         </section>
         <!-- article -->
-        <section class="py-24 bg-neutral-100">
+        <section id="blogs" class="py-24 bg-neutral-100">
             <div class="w-10/12 mx-auto">
                 <a class="btn bg-white rounded-full flex items-center w-44 mx-auto"><i
                         class="fa-regular fa-arrow-right-long  text-black h-4 w-4"></i> <span
@@ -367,7 +368,7 @@
             </div>
         </section>
         <!-- contact -->
-        <section
+        <section id="contact"
             class="py-24 bg-[url('https://raw.githubusercontent.com/ProgrammingHero1/B10-Assignment-03/main/assets/bg.jpg')]  bg-no-repeat bg-cover bg-center">
             <div class="w-10/12 mx-auto">
                 <a class="btn bg-[#acef5f3d] rounded-full flex items-center w-44 mx-auto"><i
